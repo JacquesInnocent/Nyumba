@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunset"
+    tools:context=".signupActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@drawable/splash"
+        app:layout_constraintEnd_toStartOf="@drawable/splash">
+
+        <TextView
+            android:id="@+id/signupHere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fullName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-135dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="Sign Up Here!"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="135dp"
+            android:hint="Full Names"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:textIsSelectable="true"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/emailPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="192dp"
+            android:hint="Email or Phone"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/pinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/genderGroup"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:paddingBottom="5dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/genderGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="110dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <RadioButton
+                android:id="@+id/genderMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/genderFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+            <RadioButton
+                android:id="@+id/genderOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/loginInsteadButton"
+            android:layout_marginEnd="82dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/roundedbutton"
+            android:onClick="onSubmitSign"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="Sign Up"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/loginInsteadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="29dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="82dp"
+            android:background="@drawable/roundedbutton"
+            android:onClick="loginInstead"
+            android:text="Login "
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/logo" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

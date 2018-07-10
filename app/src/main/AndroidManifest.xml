@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.roguex.nyumbaapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".firebaseApp"
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@mipmap/apartment"
+        android:label="     Nyumba Apartments Kampala"
+        android:logo="@drawable/house"
+        android:restoreAnyVersion="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".loginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signupActivity" />
+        <activity android:name=".listActivity" />
+        <activity android:name=".listActivity2" />
+        <activity android:name=".listActivity3" />
+        <activity android:name=".listActivity4" />
+        <activity android:name=".listActivity5" />
+        <activity android:name=".helpActivity"></activity>
+    </application>
+
+</manifest>

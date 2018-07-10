@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "626741788519",
+    "firebase_url": "https://nyumbaapp-6be0c.firebaseio.com",
+    "project_id": "nyumbaapp-6be0c",
+    "storage_bucket": "nyumbaapp-6be0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626741788519:android:b7876aff1848eff6",
+        "android_client_info": {
+          "package_name": "com.example.roguex.nyumbaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626741788519-n5c0d9as10qraulagdb67koqseuap2dc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roguex.nyumbaapp",
+            "certificate_hash": "f2ff3fd427b1e686cfe50bdb214a850d498a300b"
+          }
+        },
+        {
+          "client_id": "626741788519-nta1qsf8a8v4dtbpqg0cqpe75j8cenv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5p3UZ1KM8n4v7GYVew2euTT7EyHYuRr8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626741788519-nta1qsf8a8v4dtbpqg0cqpe75j8cenv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

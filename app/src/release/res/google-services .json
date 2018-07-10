@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "296893868741",
+    "firebase_url": "https://nyumba-apartments.firebaseio.com",
+    "project_id": "nyumba-apartments",
+    "storage_bucket": "nyumba-apartments.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296893868741:android:b7876aff1848eff6",
+        "android_client_info": {
+          "package_name": "com.example.roguex.nyumbaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296893868741-chuumg36sa5bubaqk124dh4dberd48cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb_2YuGMKs0XC4JyEWvXAqr0fTFELGXJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
