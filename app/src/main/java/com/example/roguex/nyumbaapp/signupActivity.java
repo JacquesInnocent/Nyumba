@@ -1,17 +1,14 @@
 package com.example.roguex.nyumbaapp;
-import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.TextView;
 import android.widget.Toast;
-import android.view.View.OnClickListener;
 
 
 //Button id = buttonBack
@@ -30,7 +27,7 @@ public class signupActivity extends AppCompatActivity {
         loginInstead.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goBack = new Intent(signupActivity.this,loginActivity.class);
+                Intent goBack = new Intent(signupActivity.this, listActivity.class);
                 startActivity(goBack);
             }
         });
@@ -87,7 +84,7 @@ public class signupActivity extends AppCompatActivity {
 
     }
     public void loginInstead(View view ){
-        Intent login = new Intent(signupActivity.this, loginActivity.class);
+        Intent login = new Intent(signupActivity.this, MainActivity.class);
         startActivity(login);
     }
 }

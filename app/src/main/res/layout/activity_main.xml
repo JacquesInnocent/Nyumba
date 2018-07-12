@@ -90,13 +90,16 @@
         android:id="@+id/radioGroup"
         android:layout_below="@+id/textView_Selection"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
         <RadioButton
             android:id="@+id/nakawa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nakawa Division"
             android:textStyle="italic"
+            android:checked="true"
             />
         <RadioButton
             android:layout_width="wrap_content"
@@ -120,6 +123,20 @@
             android:textStyle="italic"
             />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"
+        android:background="@drawable/beautifulbutton"
+        android:onClick="onContinue"
+        />
 
 
 </RelativeLayout>

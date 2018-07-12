@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--   color for the app bar and other primary UI elements -->
-    <color name="colorPrimary">@drawable/splash</color>
+    <color name="colorPrimary">#afeeee</color>
 
     <!--   a darker variant of the primary color, used for
            the status bar (on Android 5.0+) and contextual app bars -->
