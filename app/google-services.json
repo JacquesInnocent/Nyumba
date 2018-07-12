@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "626741788519-n5c0d9as10qraulagdb67koqseuap2dc.apps.googleusercontent.com",
+          "client_id": "626741788519-0dq2c5tcmdhbjinheqn3vsklubv4meik.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.roguex.nyumbaapp",
-            "certificate_hash": "f2ff3fd427b1e686cfe50bdb214a850d498a300b"
+            "certificate_hash": "6dd5317f5820db86d4af1d2c1fb597f3e4d5b419"
           }
         },
         {
